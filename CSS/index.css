@@ -113,8 +113,6 @@ footer{
   color: #333;
   font-size: 0.8em;
   font-family: 'Raleway', sans-serif;
- /* text-align: center;*/
-  padding: 1em 2em;
   margin-top: 2em;
 }
 
@@ -122,16 +120,15 @@ footer p{
   margin: 0;
 }
 
-footer .icon-facebook:before, .icon-linkedin:before, .icon-mail:before, .icon-mensaje:before{
-  font-family: 'icomoon';
-  font-size: 2em;
-  float: right;
-  margin: 0 auto;
-  color: black;
-  background-color:red;
+.iconosredesfooter{
+  position: relative;
+
 }
 
-/*comienzo de header*/
+.iconosredesfooter a{
+  text-decoration: none;
+}
+
 
 a {
   text-decoration: none;
@@ -141,9 +138,7 @@ a {
 .icon-facebook:before,.icon-linkedin:before,.icon-mail:before,.icon-mensaje:before{
   font-family: 'icomoon';
   font-size: 2.5em;
-  float: right;
   margin: 0 auto;
-  color: #ccc;
 
 }
 
@@ -159,24 +154,31 @@ a {
 
 .icon-brujula:before {
   content: "\e900";
+  color: #ccc;
 }
 .icon-facebook:before {
   content: "\e901";
+  color: #ccc;
 }
 .icon-linkedin:before {
   content: "\e902";
+  color: #ccc;
 }
 .icon-mail:before {
   content: "\e903";
+  color: #ccc;
 }
 .icon-ubicacion:before {
   content: "\e904";
+  color: #ccc;
 }
 .icon-mapa:before {
   content: "\e905";
+  color: #ccc;
 }
 .icon-mensaje:before {
   content: "\e906";
+  color: #ccc;
 }
 
 
@@ -210,47 +212,79 @@ a {
 
 
 .homeinfo{
-  position: relative;
+  position: absolute;
+  bottom: 100px;
 
+}
+
+.iconosredeshome{
+  /*background: blue;*/
+  float: right;
+  position: relative;
+  right: 10px;
+  bottom: 50px;
+
+}
+
+.iconosredeshome a{
+  text-decoration: none;
 }
 /*finalheader*/
 
 /*inicio about*/
 .about{
   margin: 0 auto;
-  height: 480px;
+  height: 500px;
+  /*background-image: url(../img/manchafongo.png);
+  background-repeat: no-repeat;
+  background-position: 2px 20px 20px; 
+  background-size: 50%;
+  /*opacity: 0.5;*/
+
 
 }
 
 
-h2{
+.aboutme h2{
   font-family: 'Raleway', sans-serif;
-  color: grey;
+  color: #949494;
+  font-size: 3em;
+  margin: 0 auto;
+
+
 
 }
 
 .aboutme p{
   font-family: 'Raleway', sans-serif;
-  color: grey;
+  color: #949494;;
+  margin: 0 auto;
+  font-size: 1.2em;
+  font-style: bold;
 
 }
 
 
 .aboutme{
-  width: 300px;
+  width: 400px;
   height: auto;
+  position: relative;
+  left: 10%;
+  top: 150px;
+
 }
 
-.aboutme div img{
-  width: 60%;
-  display: block;
-}
-
-.imgabout {
+.about1 .imgtul img{
+  width: 40%;
+  box-shadow: 0px 3px 2px rgba(0,0,0,0.3);
+  float: right;
+  position: relative;
   border-radius: 50%;
-  box-shadow: 0px 3px 2px rgba(0,0,0,0.2);
+  bottom: 140px;
+  right: 25px;
 
 }
+
 
 /*fin about*/
 
