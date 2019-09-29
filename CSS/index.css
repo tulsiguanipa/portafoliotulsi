@@ -248,14 +248,14 @@ a {
 
 .fondoabout{
   position: relative;
-  right: 40px;
-  top: 60px;
+  right: 20px;
+  top: 80px;
 }
 
 
 .aboutme h2{
   font-family: 'Archivo Black', sans-serif;
-  color: #949494;
+  color: #535c5f;
   font-size: 3em;
   margin: 0 auto;
 
@@ -290,8 +290,8 @@ a {
 
 
 .aboutme{
-  width: 25%;
-  height: auto;
+  width: 400px;
+  height: 350px;
   position: absolute;
   top: 600px;
   box-shadow: 0 .5rem 3rem rgba(0, 0, 0, .15);
@@ -299,19 +299,12 @@ a {
   background-color: white;
 }
 
-.clearfix:after {
-  content: ".";
-  display: block;
-  clear: both;
-  visibility: hidden;
-  line-height: 0;
-  height: 0;
-}
+
 
 
 .about1 .imgtul img{
   width: 40%;
-  box-shadow: 0px 3px 2px rgba(0,0,0,0.3);
+  box-shadow: 0 .5rem 3rem rgba(0, 0, 0, .15);
   float: right;
   position: relative;
   border-radius: 50%;
@@ -333,32 +326,68 @@ a {
 
 /* comienzo skills*/
 
-.skilss{
-  height: 500px;
-  /*box-shadow: 0 .5rem 3rem rgba(0, 0, 0, .15);*/
-  padding: 20px;
-  position: relative;
-
+.skills{
+  height: 300px;
 }
 
-.skillslist h2{
+.skills h2{
   font-family: 'Archivo Black', sans-serif;
-  color: #949494;
+  color: #535c5f;
   font-size: 3em;
-  margin: 0 auto;
+  margin: 30px;
+  padding: 10px;
+  
 
 }
 
-/*.skills .skilsslist ul li{
-  color: white;
-  text-decoration: none;
-  text-align: center;  es la alineacion del texto o imagenes con respecto a la caja
-  padding: 0.2em 0.4em;
-  display: block; /* para que lo tome dentro del nav*/
-
-}/*
+.skillslist ul{
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  list-style: none;
+  
+  
 
 
+}
+
+.skillslist ul li{
+  padding: 30px;
+  text-align: center;
+
+
+}
+
+
+
+
+.skillslist{
+  height: 200px;
+  width: 960px;
+  background-color: white;
+  position: absolute;
+  top: 1170px;
+  box-shadow: 0 .5rem 3rem rgba(0, 0, 0, .15);
+  overflow: hidden;
+
+}
+
+.fondogardiente {
+  top: -150px;
+  position: relative;
+  margin-right: 10px;
+
+}
+
+
+/*.fondoskills {
+  z-index: -1;
+}
+*/
+.fondogardiente{
+  position: relative;
+  left: 40px;
+  bottom: 20px;
+}
 
 /* fin skills*/
 
@@ -366,12 +395,33 @@ a {
 /* comienzo projects*/
 
 .projects{
-  height: 600px;
+  height: 500px;
   background-color: #ece3e2;
 
 }
 
 
+.projectscuadro ul{
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  list-style: none;
+  top: 10px;
+  padding: 20px;
+  
+}
+.projectscuadro ul li{
+  padding: 5px;
+  
+}
+.projectscuadro ul li a{
+  color: #535c5f;
+}
+
+.projectscuadro ul li a:hover{
+  text-decoration: underline;
+  /* el:hover es una pseudoclase cuando la mano este sobre el boton*/
+
+}
 
 
 
@@ -379,12 +429,81 @@ a {
 /* fin projects*/
 
 /* comienzo contact */
+.contact h2{
+   font-family: 'Archivo Black', sans-serif;
+   color: #535c5f;
+}
+
 
 .contact {
-  height: 600px;
+  height: 400px;
 
   /*border-color: #e6e6e6;*/
 
+}
+
+
+.columna{
+  width: 50%;
+  padding: 0 0.625em;
+  box-sizing: border-box;
+  
+}
+
+.columna.left{
+  /*lineas separadoras/ las dos clases juntas cuando estan en la mismo div, tiene la dos clases*/
+  border-right: 1px solid #ddd;
+}
+
+.columna.right p{
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.8em;
+
+}
+.columna.right ul li{
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.8em;
+}
+
+.formulario label{
+  font-family: 'Raleway', sans-serif;
+  width: 22%;
+  /*vertical-align: top;*/ 
+  /*background-color: red;*/
+  /*display: inline-block;*/
+  display: block; /*bajan la cajita y sube el titulo*/
+}
+
+.formulario input,
+.formulario textarea{
+  font-family: 'Raleway', sans-serif;
+  background-color: #ddd;
+  border: 1px solid #999;
+  font-size: 0.8em;
+  padding: 0.4em 0.6em;
+  width: 95%;
+
+}
+
+.formulario textarea{
+  height: 10em;
+  resize: none;
+  /* se mantiene el area estatica de la caja de comentario*/
+}
+
+.formulario input[type="submit"]{
+  font-family: 'Raleway', sans-serif;
+  width: auto;
+  background-color: #f8777d;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.14);
+  color: white;
+  font-size: 1em;
+  text-align: center;
+}
+
+.formulario .acciones {
+  text-align: right;
 }
 
 
