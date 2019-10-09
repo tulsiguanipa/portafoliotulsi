@@ -333,11 +333,10 @@ a {
 .skills h2{
   font-family: 'Archivo Black', sans-serif;
   color: #535c5f;
-  font-size: 3em;
-  margin: 25px;
+  font-size: 2.5em;
+  margin: 20px;
   padding: 10px;
-  
-
+  text-align: right;
 }
 
 .skillslist ul{
@@ -346,20 +345,18 @@ a {
   list-style: none;
   margin: 0;
   padding: 0;
-  
-  
+}
 
-
+.imghabilidades div h4{
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  margin:0;
 }
 
 .skillslist ul li{
   padding: 30px;
   text-align: center;
-
-
 }
-
-
 
 
 .skillslist{
@@ -469,7 +466,7 @@ div {
 /* comienzo projects*/
 
 .projects{
-  height: 500px;
+  height: 550px;
   background-color: #ece3e2;
 
 }
@@ -500,21 +497,26 @@ div {
 
 
 .contenedor1 {
-    background-color: green;
+/*    background-color: green;*/
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 
 .item {
-  background-color: #ccc;
+/*  background-color: #ccc;*/
   margin: 10px;
   text-align: center;
   line-height: 75px;
   font-size: 30px;
-  width: 300px; /*se adapta al tamaño*/
-  height: 180px;
+  width: 200px; /*se adapta al tamaño*/
+  
 }
+
+.projects .contenedor1 img{
+  box-shadow: 0 0 10px rgba(0,0,0,0.14);
+}
+
 
 /* fin projects*/
 
@@ -531,26 +533,33 @@ div {
   /*border-color: #e6e6e6;*/
 
 }
+.formuconsul{
+  position: absolute;
+}
 
+
+.fondogardiente1 {
+  position: relative;
+  float: right;
+  display: block;
+}
 
 .columna{
   width: 50%;
   padding: 0 0.625em;
   box-sizing: border-box;
-  
+  position: relative; 
+  background-color: white; 
+  box-shadow: 0 .5rem 3rem rgba(0, 0, 0, .15);
 }
 
-.columna.left{
-  /*lineas separadoras/ las dos clases juntas cuando estan en la mismo div, tiene la dos clases*/
-  border-right: 1px solid #ddd;
-}
 
-.columna.right p{
+.columna.left p{
   font-family: 'Raleway', sans-serif;
   font-size: 0.8em;
 
 }
-.columna.right ul li{
+.columna.left ul li{
   font-family: 'Raleway', sans-serif;
   font-size: 0.8em;
 }
@@ -567,12 +576,11 @@ div {
 .formulario input,
 .formulario textarea{
   font-family: 'Raleway', sans-serif;
-  background-color: #ddd;
-  border: 1px solid #999;
+  background-color: #f8f8f8;
+  border: 1px solid #e6e6e6;
   font-size: 0.8em;
   padding: 0.4em 0.6em;
   width: 95%;
-
 }
 
 .formulario textarea{
@@ -596,9 +604,45 @@ div {
   text-align: right;
 }
 
+.contectorap {
+  float: left;
+  width: 450px;
+}
 
+.contectorap h6{
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  font-style: normal;
+  margin: 10px;
+  padding: 10px;
+}
 
+.contectorap h3{
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 2em;
+  color: #535c5f;
+  margin: 0 auto;
+  font-style: normal;
+}
 
+.contectorap p{
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  width: 400px;
+}
 
+.contectorap input[type="submit"]{
+  font-family: 'Raleway', sans-serif;
+  width: auto;
+  background-color: #f8f8f8;
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.14);
+  color: #535c5f;
+  font-size: 1em;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+}
 
 /* fin contact */
