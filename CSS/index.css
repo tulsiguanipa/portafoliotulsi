@@ -61,7 +61,8 @@ header div img{
   display: inline-block;
   width: 100%;
  /* box-shadow: 0px 3px 0px rgba(0,0,0,0.1);*/
-  background: white;
+  background: #ffffff; 
+
 }
 
 
@@ -109,7 +110,7 @@ footer{
   clear: both;
   font-family: 'Raleway', sans-serif;
   margin-top: 2em;
-  height: 90px;
+  height: 100px;
   font-style: normal;
   position: absolute;
   width: 100%;
@@ -144,7 +145,7 @@ nav ul li a:hover{
 }
 
 footer .copyright{
-  font-size: 0.8em;
+  font-size: 1em;
   margin: 0
   color: #8a8a8a;
   position: relative;
@@ -161,7 +162,7 @@ footer .copyright h5{
 footer .footernav{
   position: relative;
   margin: 0;
-  bottom:  15px;
+  bottom:  30px;
 }
 
 
@@ -270,8 +271,8 @@ a {
   /*background: blue;*/
   float: right;
   position: relative;
-  right: 10px;
-  bottom: 50px;
+  right: 30px;
+  bottom: 60px;
 
 }
 
@@ -320,6 +321,7 @@ a {
   margin: 0 auto;
   font-size: 1.2em;
   font-style: bold;
+  padding-top: 5px;
 
 }
 
@@ -360,6 +362,24 @@ a {
   display: block;
   box-sizing: 50%;
 
+}
+
+.resumen{
+  border: 1px solid #e6e6e6;
+  width: 160px;
+  float: left;
+  position: relative;
+  top: 30px;
+  border-radius: 20px;
+  height: auto;
+  padding: 10px;
+}
+
+.resumen a{
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  margin: 10px;
+  padding: 5px;
 }
 
 /* fin about*/
@@ -506,7 +526,7 @@ div {
 /* comienzo projects*/
 
 .projects{
-  height: 550px;
+  height: 520px;
   background-color: #ece3e2;
 
 }
@@ -547,15 +567,32 @@ div {
 /*  background-color: #ccc;*/
   margin: 10px;
   text-align: center;
-  line-height: 75px;
+  line-height: 0px;
   font-size: 30px;
   width: 200px; /*se adapta al tamaño*/
+  transition: all 0.5s ease;
+  margin-bottom: 10px;
   
 }
 
 .projects .contenedor1 img{
   box-shadow: 0 0 10px rgba(0,0,0,0.14);
 }
+
+/*transiciones*/
+
+.item:hover{
+
+  box-shadow: 
+    10px 10px #f8777d;
+
+  transform: translate(-5px);
+
+
+}
+
+
+
 
 
 /* fin projects*/
@@ -631,11 +668,11 @@ div {
 
 .formulario input[type="submit"]{
   font-family: 'Raleway', sans-serif;
-  width: auto;
-  background-color: #f8777d;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.14);
-  color: white;
+  width: 80px;
+  border: 1px solid #e6e6e6;
+  border-radius: 20px;
+  box-shadow: 0 0 9px rgba(0,0,0,0.19);
+  color: #535c5f;
   font-size: 1em;
   text-align: center;
 }
@@ -690,7 +727,8 @@ div {
 .otrosp{
     border-top: 1px solid #e6e6e6;
     width: 45%;
-
+    position: relative;
+    top: 50px;
 }
 
 
@@ -708,4 +746,47 @@ div {
   padding: 5px;
 }
 
+
+.contectorap .numero{
+
+}
+
+.contectorap .numero{
+  border: 1px solid #e6e6e6;
+  width: 160px;
+  position: relative;
+  border-radius: 20px;
+  height: auto;
+  padding: 10px;
+  margin: 0;
+  display: inline-block;
+  margin-left: 10px;
+  top: 15px;
+}
+
+.contectorap .numero a{
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  margin: 10px;
+  padding: 5px;
+}
+
+.contectorap .mail{
+  border: 1px solid #e6e6e6;
+  width: 200px;
+  position: relative;
+  border-radius: 20px;
+  height: auto;
+  padding: 10px;
+  margin: 0;
+  display: inline-block;
+  top: 15px;
+}
+
+.contectorap .mail a{
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  margin: 10px;
+  padding: 5px;
+}
 /* fin contact */
