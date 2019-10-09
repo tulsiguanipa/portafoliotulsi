@@ -20,7 +20,7 @@ font-family: 'Archivo Black', sans-serif;*/
 }
 
 header{
-  box-shadow: 0px 3px 0px rgba(0,0,0,0.1);
+  box-shadow: 0 0 10px rgba(0,0,0,0.14);
   padding: 0 0; /* el em viene por defecto del body */
   width: 100%;
   position: fixed;
@@ -103,27 +103,67 @@ nav ul li a:hover{
 
 }
 
-footer h5{
-  font-size: 1.3em;
-  position: relative;
-  left: 20px;
-  top: 80px;
-
-}
 
 footer{
-  background-color: #65bcbf;
+  background-color: #f8f8f8;
   clear: both;
-  color: #333;
-  font-size: 0.8em;
   font-family: 'Raleway', sans-serif;
   margin-top: 2em;
-  height: 200px;
+  height: 80px;
+  font-style: normal;
+  position: absolute;
+  width: 100%;
 }
 
 footer p{
   margin: 0;
 }
+
+footer .footernav .navegacionfooter nav ul li a{
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.5em;
+  color: white;
+  /*font-weight: bold;*/
+  line-height: 20px;  centrarlo en la caja contenedora
+  padding: 0 20px;
+  display: block; /* permite que la persona vaya a clickear el nav pueda seleccionar el boton y no solo en las letras*/
+  /*margin-right: 2px;*/ /* separacion entre botones*/
+  
+}
+
+.footernav {
+    display: inline-block;
+ /* box-shadow: 0px 3px 0px rgba(0,0,0,0.1);*/
+    float: right;  
+}
+
+nav ul li a:hover{
+  text-decoration: underline;
+  /* el:hover es una pseudoclase cuando la mano este sobre el boton*/
+
+}
+
+footer .copyright{
+  font-size: 0.8em;
+  margin: 0
+  color: #8a8a8a;
+  position: relative;
+}
+
+footer .copyright h5{
+  font-size: 0.8em;
+  color: #8a8a8a;
+  position: relative;
+  left: 50px;
+  top: 20px;
+}
+
+footer .footernav{
+  position: relative;
+  margin: 0;
+  bottom:  15px;
+}
+
 
 .iconosredesfooter{
   position: relative;
@@ -528,7 +568,7 @@ div {
 
 
 .contact {
-  height: 400px;
+  height: 450px;
 
   /*border-color: #e6e6e6;*/
 
@@ -550,7 +590,7 @@ div {
   box-sizing: border-box;
   position: relative; 
   background-color: white; 
-  box-shadow: 0 .5rem 3rem rgba(0, 0, 0, .15);
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
 }
 
 
@@ -615,6 +655,7 @@ div {
   font-style: normal;
   margin: 10px;
   padding: 10px;
+  color: #535c5f;
 }
 
 .contectorap h3{
@@ -629,20 +670,42 @@ div {
   font-family: 'Raleway', sans-serif;
   font-size: 1em;
   width: 400px;
+  line-height: 20px;
+  color: #535c5f;
 }
 
 .contectorap input[type="submit"]{
   font-family: 'Raleway', sans-serif;
   width: auto;
-  background-color: #f8f8f8;
+  background-color: white;
   border: 1px solid #e6e6e6;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.14);
   color: #535c5f;
   font-size: 1em;
   text-align: center;
   padding: 10px;
-  margin: 10px;
+  margin: 0 auto;
+}
+
+.otrosp{
+    border-top: 1px solid #e6e6e6;
+    width: 45%;
+
+}
+
+
+.contact .otrosp h6{  
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.9em;
+  font-style: normal;
+  margin: 5px;
+  padding-top: 20px;
+  color: #535c5f;
+
+}
+
+.iconosredescontacto {
+  padding: 10px;
 }
 
 /* fin contact */
