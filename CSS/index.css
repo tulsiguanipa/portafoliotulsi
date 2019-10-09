@@ -334,7 +334,7 @@ a {
   font-family: 'Archivo Black', sans-serif;
   color: #535c5f;
   font-size: 3em;
-  margin: 30px;
+  margin: 25px;
   padding: 10px;
   
 
@@ -344,6 +344,8 @@ a {
   font-family: 'Raleway', sans-serif;
   text-align: center;
   list-style: none;
+  margin: 0;
+  padding: 0;
   
   
 
@@ -365,7 +367,7 @@ a {
   width: 960px;
   background-color: white;
   position: absolute;
-  top: 1170px;
+  top: 1120px;
   box-shadow: 0 .5rem 3rem rgba(0, 0, 0, .15);
   overflow: hidden;
 
@@ -378,6 +380,15 @@ a {
 
 }
 
+.imghabilidades{
+  clear: both;
+}
+
+.lista{
+  padding: 0;
+  margin: 0;
+}
+
 
 /*.fondoskills {
   z-index: -1;
@@ -388,6 +399,69 @@ a {
   left: 40px;
   bottom: 20px;
 }
+
+.progress-bar {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #f8777d;
+    transition: width 0.6s ease;
+}
+/*::before, ::after {
+    box-sizing: border-box;
+}*/
+
+div {
+    display: block;
+}
+.progress {
+    display: -ms-flexbox;
+    display: flex;
+    height: 1rem;
+    overflow: hidden;
+    font-size: 0.75rem;
+    background-color: #e9ecef;
+    border-radius: 0.25rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+.photoshop {
+  width: 140px;
+  margin: 10px;
+}
+
+.illus {
+  width: 140px;
+  margin: 10px;
+ 
+}
+
+.solid {
+  width: 140px;
+  margin: 10px;
+}
+
+.html {
+  width: 140px;
+  margin: 10px;
+}
+
+.css {
+  width: 140px;
+  margin: 10px;
+}
+
+.rendering {
+  width: 140px;
+  margin: 10px;
+}
+
 
 /* fin skills*/
 
@@ -407,6 +481,7 @@ a {
   list-style: none;
   top: 10px;
   padding: 20px;
+  margin: 0;
   
 }
 .projectscuadro ul li{
@@ -424,7 +499,22 @@ a {
 }
 
 
+.contenedor1 {
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+}
 
+
+.item {
+  background-color: #ccc;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  width: 300px; /*se adapta al tamaño*/
+  height: 180px;
+}
 
 /* fin projects*/
 
