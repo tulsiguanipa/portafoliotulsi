@@ -39,7 +39,7 @@ header{
 
 
 header div img{
-  width: 25%;
+  width: 20%;
   margin: auto;
   padding: 0;
   display: block;
@@ -191,7 +191,7 @@ a {
 
 
 .imghome{
-  padding-top: 150px;
+  padding-top: 128px;
   max-width: 100%;
   height: auto;
 /*  overflow: hidden;*/
@@ -424,7 +424,7 @@ a {
   width: 960px;
   background-color: white;
   position: absolute;
-  top: 1120px;
+  top: 1100px;
   box-shadow: 0 .5rem 3rem rgba(0, 0, 0, .15);
   overflow: hidden;
 
