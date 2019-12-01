@@ -52,80 +52,25 @@
 
 		<!-- comienza about -->
 		<a name="about"></a>
-		<div>
-			<section class="about holder">
-				<div class="about1">
-					<div class="fondoabout">
-						<img src="img/fondoabout.jpg" alt="fondoabout">
-						
-					</div>
-					<div class="aboutme clearfix">
-						<h2>- ABOUT ME</h2>
-						<h3>Hola soy Tulsi!</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic beatae aspernatur sit doloremque et, voluptatum, iure quia vero maxime quaerat eveniet molestias quam nobis cumque qui! Necessitatibus, modi itaque impedit?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic beatae aspernatur sit doloremque et, voluptatum.</p>
-						<div class="resumen">
-							<a href="resumen/TULSI GUANIPA CV.pdf" target="_blank">Mira mi Resumen</a>
-						</div>
-					</div>
-					<div class="imgtul right">
-						<img class="imgabout" src="img/tulsicara.jpg" width="200" alt="tulsiguanipa">
-					</div>
+		<div  class="about holder" data-aos="fade-up">
+			<div class="contenedorabout left">	
+				<div class="info">
+					<h2>ACERCA DE MI</h2>
+					<h4>Hola soy Tulsi Guanipa</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, tempore recusandae reiciendis consequatur nemo ipsum quae consectetur ex blanditiis eveniet asperiores officiis? Pariatur sed ab alias dolores, numquam fugiat voluptates! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, tempore recusandae reiciendis consequatur nemo ipsum quae consectetur ex blanditiis eveniet asperiores officiis? Pariatur sed ab alias dolores, numquam fugiat voluptates</p>
+					<div class="resumen"><a href="resumen/TULSI GUANIPA CV.pdf">Mira mi Resumen</a></div>
 				</div>
-			</section>
+			</div>
+			<div class="contenedorabout right">
+				<div class="imagentul"><img src="img/tulsicara.jpg" alt="tulsi guanipa" width="200"></div>
+			</div>
+
 		</div>
 
 			<!-- comienza skills -->
 		<a name="skills"></a>
-		<div >
-			<section class="skills holder">
-				<div class="fondoskills">
-					<div class="fondogardiente">
-						<img src="img/fondo960.jpg" alt="home">
-					</div>			
-					<div class="skillslist">
-						<h2>HABILIDADES</h2>
-						<div class="imghabilidades">
-							<div class="left">
-								<h4>PHOTOSHOP</h4>
-								<div class="progress left photoshop">
-									<div class="progress-bar right" role="progressbar" style="width: 60%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">60%</div>
-								</div>
-							</div>
-							<div class="left">
-								<h4>ILLUSTRATOR</h4>
-								<div class="progress left illus">
-									<div class="progress-bar right" role="progressbar" style="width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">80%</div>
-								</div>
-							</div>
-							<div class="left">
-								<h4>SOLIDWORKS</h4>
-								<div class="progress left solid">
-									<div class="progress-bar right" role="progressbar" style="width: 85%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">85%</div>
-								</div>
-							</div>
-							<div class="left">
-								<h4>HTML</h4>
-								<div class="progress left html">
-									<div class="progress-bar right" role="progressbar" style="width: 60%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">60%</div>
-								</div>
-							</div>
-							<div class=left>
-								<h4>CSS</h4>
-								<div class="progress left css">
-									<div class="progress-bar right" role="progressbar" style="width: 60%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">60%</div>
-								</div>
-							</div>
-							<div class="left">
-								<h4>RENDERING</h4>
-								<div class="progress left rendering">
-									<div class="progress-bar right" role="progressbar" style="width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">80%</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-			</section>
+		<div class="skills holder" data-aos="fade-up" >
+
 		</div>
 		<br>
 

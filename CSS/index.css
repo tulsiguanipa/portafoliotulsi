@@ -283,181 +283,77 @@ a {
 
 /*inicio about*/
 .about{
-    height: 600px;
-
-}
-
-.fondoabout{
+  /*background: orange*/;
+  width: 960px;
+  height: 400px;
   position: relative;
-  right: 20px;
-  top: 80px;
-}
-
-
-.aboutme h2{
-  font-family: 'Archivo Black', sans-serif;
-  color: #535c5f;
-  font-size: 3em;
-  margin: 0 auto;
-
-
-
-}
-
-.aboutme h3{
-  font-family: 'Archivo Black', sans-serif;
-  color: #949494;
-  font-size: 1.5em;
-  margin: 0 auto;
-
-
-
-}
-
-
-.aboutme p{
-  font-family: 'Raleway', sans-serif;
-  color: #949494;;
-  margin: 0 auto;
-  font-size: 1.2em;
-  font-style: bold;
-  padding-top: 5px;
-
-}
-
-.fondoimg img{
-  z-index: -1;
   
 }
 
+.contenedorabout{
+  display: flex;
+  justify-content: space-around;
+  
+}
 
-.aboutme{
-  width: 400px;
-  height: 350px;
+.contenedorabout .info{
+  height: 300px;
+  width: 360px;
+  right: 30px;
+  top: 15px;
+  left: 50px;
   position: absolute;
-  top: 600px;
+  padding: 20px;
   box-shadow: 0 .5rem 3rem rgba(0, 0, 0, .15);
-  padding: 40px;
-  background-color: white;
-}
-
-
-
-
-.about1 .imgtul img{
-  width: 40%;
-  box-shadow: 0 .5rem 3rem rgba(0, 0, 0, .15);
-  float: right;
-  position: relative;
-  border-radius: 50%;
-  right: 15px;
-  padding: 5px;
-  bottom: 300px;
-  
-
-}
-
-.imgtul {
-  width: auto;
-  display: block;
-  box-sizing: 50%;
+  padding-bottom: 60px;
 
 }
 
 .resumen{
-  border: 1px solid #e6e6e6;
-  width: 160px;
-  float: left;
-  position: relative;
-  top: 30px;
+  box-shadow: 0 .5rem 3rem rgba(0, 0, 0, .15);
   border-radius: 20px;
-  height: auto;
   padding: 10px;
+  width: 130px;
+  border: 1px solid #e6e6e6;
+
 }
 
 .resumen a{
-  font-family: 'Raleway', sans-serif;
-  text-align: center;
-  margin: 10px;
-  padding: 5px;
+  padding: 2px;
+  color: #8a8a8a;
 }
 
+.imagentul img{
+  box-shadow: 0 .5rem 3rem rgba(0, 0, 0, .15);
+  position: fixed;
+  border-radius: 50%; 
+  width: 40%; 
+  left: 550px;
+  bottom: 10px;
+  padding: 5px;
 
+}
 
 /* fin about*/
 
 /* comienzo skills*/
-
+/*
 .skills{
   height: 300px;
-}
-
-.skills h2{
-  font-family: 'Archivo Black', sans-serif;
-  color: #535c5f;
-  font-size: 2.5em;
-  margin: 20px;
-  padding: 10px;
-  text-align: right;
-}
-
-.skillslist ul{
-  font-family: 'Raleway', sans-serif;
-  text-align: center;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.imghabilidades div h4{
-  font-family: 'Raleway', sans-serif;
-  text-align: center;
-  margin:0;
-}
-
-.skillslist ul li{
-  padding: 30px;
-  text-align: center;
-}
-
-
-.skillslist{
-  height: 200px;
+}*/
+.skills{
+  background: red;
   width: 960px;
-  background-color: white;
-  position: absolute;
-  top: 1100px;
-  box-shadow: 0 .5rem 3rem rgba(0, 0, 0, .15);
-  overflow: hidden;
-
-}
-
-.fondogardiente {
-  top: -150px;
+  height: 400px;
   position: relative;
-  margin-right: 10px;
+
 
 }
-
-.imghabilidades{
-  clear: both;
-}
-
-.lista{
-  padding: 0;
-  margin: 0;
-}
-
 
 /*.fondoskills {
   z-index: -1;
 }
 */
-.fondogardiente{
-  position: relative;
-  left: 40px;
-  bottom: 20px;
-}
 
 .progress-bar {
     display: -ms-flexbox;
