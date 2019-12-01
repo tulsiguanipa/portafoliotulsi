@@ -33,7 +33,7 @@
 			</div>
 		</header>
 		<a name="home"></a>
-		<div>
+		<div data-aos="fade-up">
 			<section class="home holder">
 					<div class="imghome"> 
 						<img src="img/fondohome.png" alt="home">
@@ -43,13 +43,15 @@
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex ipsa nam enim obcaecati a eligendi sunt officiis unde, quasi eos omnis ipsam excepturi exercitationem perspiciati.</p>
 						</div>
 						<div class="iconosredeshome">
-						<a styles="margin-right: -50px" href="https://www.linkedin.com/in/tulsiguanipa/" class="icon-linkedin" target="_blank"> <a href="https://www.facebook.com/Tulsi.Guanipa" class="icon-facebook"  target="_blank"></a></a><a href="#contact" class="icon-mensaje"></a><a href="" class="icon-mail"></a>
+						<a href="https://www.facebook.com/Tulsi.Guanipa" class="icon-facebook"  target="_blank"></a><a href="https://www.linkedin.com/in/tulsiguanipa/" class="icon-linkedin" target="_blank"></a><a href="#contact" class="icon-mensaje"></a><a href="" class="icon-mail"></a>
 						</div>
 
 					 </div>
 			</section>
 		</div>
-		<a name="about"></a>s
+
+		<!-- comienza about -->
+		<a name="about"></a>
 		<div>
 			<section class="about holder">
 				<div class="about1">
@@ -71,11 +73,13 @@
 				</div>
 			</section>
 		</div>
+
+			<!-- comienza skills -->
 		<a name="skills"></a>
-		<div>
+		<div >
 			<section class="skills holder">
 				<div class="fondoskills">
-					<div class="fondogradiente">
+					<div class="fondogardiente">
 						<img src="img/fondo960.jpg" alt="home">
 					</div>			
 					<div class="skillslist">
@@ -124,8 +128,10 @@
 			</section>
 		</div>
 		<br>
+
+			<!-- comienza proyects -->
 		<a name="projects"></a>
-		<div>
+		<div data-aos="fade-up">
 			<section class="projects">
 				<div class="projectscuadro holder">
 					<ul><li style="display:inline;"><a href="">ALL/</a></li><li style="display:inline;"><a href="">WEB/</a></li><li style="display:inline;"><a href="">INDUSTRIAL</a></li></ul>
@@ -148,7 +154,7 @@
 		<br>
 		<br>
 		<a name="contact"></a>
-		<div>
+		<div data-aos="fade-up">
 			<section class="contact holder">
 					<div class="columna right" >
 						<h2>Contacto rápido</h2>
@@ -188,7 +194,7 @@
 						<h6>Otros lugares donde me puedes encontrar</h6>
 						<br>
 						<div class="iconosredescontacto">
-						<a href="https://www.linkedin.com/in/tulsiguanipa/" class="icon-linkedin" target="_blank"></a><a href="https://www.facebook.com/Tulsi.Guanipa" class="icon-facebook" target="_blank"></a>
+						<a href="https://www.facebook.com/Tulsi.Guanipa" class="icon-facebook" target="_blank"></a><a href="https://www.linkedin.com/in/tulsiguanipa/" class="icon-linkedin" target="_blank"></a>
 						</div>
 					</div>
 				
@@ -218,9 +224,9 @@
 
 	</main>
 
-	<!-- <script src="js/aos.js"></script>
+	<script src="js/aos.js"></script>
 	<script>
  		 AOS.init();
-	</script> -->
+	</script>
 </body>
 </html>
