@@ -43,7 +43,7 @@
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex ipsa nam enim obcaecati a eligendi sunt officiis unde, quasi eos omnis ipsam excepturi exercitationem perspiciati.</p>
 						</div>
 						<div class="iconosredeshome">
-						<a href="https://www.facebook.com/Tulsi.Guanipa" class="icon-facebook"  target="_blank"></a><a href="https://www.linkedin.com/in/tulsiguanipa/" class="icon-linkedin" target="_blank"></a><a href="#contact" class="icon-mensaje"></a><a href="" class="icon-mail"></a>
+						<a href="https://www.linkedin.com/in/tulsiguanipa/" class="icon-linkedin" target="_blank"></a><a href="https://www.facebook.com/Tulsi.Guanipa" class="icon-facebook"  target="_blank"></a><a href="#contact" class="icon-mensaje"></a><a href="" class="icon-mail"></a>
 						</div>
 
 					 </div>
@@ -69,8 +69,15 @@
 
 			<!-- comienza skills -->
 		<a name="skills"></a>
-		<div class="skills holder" data-aos="fade-up" >
-
+		<div class="skills holder" data-aos="fade-up">
+			<h2>¿En que puedo contribuir a tu proyecto?</h2>
+			<div class="contenedor2">			
+				<div class="icon1 icon-desing"><h3>Web Desing & Developer</h3></div>
+				<div class="icon1 icon-code"><h3>HTML, CSS, JS, PHP</h3></div>
+				<div class="icon1 icon-edit-3"><h3>Photoshop & Illustrator</h3></div>
+				<div class="icon1 icon-pen-tool"><h3>Modelado 3D y Rendering</h3></div>
+				<div class="icon1 icon-settings"><h3>Diseño de Productos</h3></div>
+			</div>
 		</div>
 		<br>
 
