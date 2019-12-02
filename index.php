@@ -149,7 +149,7 @@
 						<h6>Otros lugares donde me puedes encontrar</h6>
 						<br>
 						<div class="iconosredescontacto">
-						<a href="https://www.facebook.com/Tulsi.Guanipa" class="icon-facebook" target="_blank"></a><a href="https://www.linkedin.com/in/tulsiguanipa/" class="icon-linkedin" target="_blank"></a>
+						<a href="https://www.linkedin.com/in/tulsiguanipa/" class="icon-linkedin" target="_blank"></a><a href="https://www.facebook.com/Tulsi.Guanipa" class="icon-facebook" target="_blank"></a>
 						</div>
 					</div>
 				
