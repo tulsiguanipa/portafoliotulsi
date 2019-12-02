@@ -1,13 +1,11 @@
 <?php
 include('conexion.php');
 
-
 	$nombre =$_POST['nombre'];
 	$email =$_POST['email'];
-	$tel =$_POST['tel'];
 	$comentario =$_POST['comentarios'];
 
-$resultado =mysqli_query($conexion, "INSERT INTO contacto (nombre,email,tel,comentario) VALUES ('$nombre','$email','$tel','$comentario') ");
+$resultado =mysqli_query($conexion, "INSERT INTO idconsulta (nombre,email,comentario) VALUES ('$nombre','$email','$comentario') ");
 
 if ($resultado!=0) {
 
@@ -16,7 +14,6 @@ if ($resultado!=0) {
 	$asunto = $nombre . ' envio una consulta a traves de la WEB';
 	$contenido = 'Nombre: ' . $nombre . "\r\n";
 	$contenido .= 'Email: ' . $email . "\r\n";
-	$contenido .= 'Telefono: ' . $tel . "\r\n";
 	$contenido .= 'Comentario: ' . $comentario . "\r\n";
 
 	$remitente_usuario = "From: Sitio web <flx64@gmail.com>";
@@ -27,11 +24,11 @@ if ($resultado!=0) {
 	mail($destino,$asunto,$contenido,$remitente);
 	mail($email,$asunto_usuario,$contenido_usuario,$remitente_usuario);
 
-	header('location:contacto.php?envio=ok#contacto'); 
+	header('location:index.php?envio=ok#index'); 
 	//header > redireccionar envio=ok
 
 } else{
-	header('location:contacto.php?envio=error#contacto');
+	header('location:index.php?envio=error#index');
 }
 
 ?>
