@@ -73,10 +73,11 @@
 			<h2>¿En que puedo contribuir a tu proyecto?</h2>
 			<div class="contenedor2">			
 				<div class="icon1 icon-desing"><h3>Web Desing & Developer</h3></div>
-				<div class="icon1 icon-code"><h3>HTML, CSS, JS, PHP</h3></div>
+				<div class="icon1 icon-code"><h3>HTML, CSS, JavaScript, PHP</h3></div>
 				<div class="icon1 icon-edit-3"><h3>Photoshop & Illustrator</h3></div>
 				<div class="icon1 icon-pen-tool"><h3>Modelado 3D y Rendering</h3></div>
 				<div class="icon1 icon-settings"><h3>Diseño de Productos</h3></div>
+				<div class="icon1 icon-mapa"><h3>Bootstrap, Jquery, Angular</h3></div>
 			</div>
 		</div>
 		<br>
@@ -110,18 +111,18 @@
 			<section class="contact holder">
 					<div class="columna right" >
 						<h2>Contacto rápido</h2>
-						<form action="" method="" class="formulario">	
+						<form action="procesador_formulario.php" method="POST" class="formulario">	
 							<p>
 								<label for="email">* Nombre</label>
-								<input type="text" name="" value="" id="email" />
+								<input type="text" name="nombre" value="" id="email" required/>
 							</p>
 							<p>
 								<label for="tel">* E-Mail</label>
-								<input type="text" name="" value="" id="tel" />
+								<input type="text" name="email" value="" id="tel" required/>
 							</p>
 							<p>
 								<label for="comentario">* Consulta</label>
-								<textarea id="comentario" name=""></textarea>
+								<textarea id="comentario" name="comentarios" required></textarea>
 							</p>
 							<p class="acciones">
 								<input type="submit" value="Enviar" />
@@ -129,6 +130,8 @@
 							</p>
 							
 						</form>
+
+
 					</div>
 					<div class="contectorap">
 

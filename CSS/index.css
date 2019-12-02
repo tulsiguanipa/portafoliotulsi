@@ -182,7 +182,7 @@ a {
 
 
 
-.icon-facebook:before,.icon-linkedin:before,.icon-mail:before,.icon-mensaje:before,.icon-desing:before,.icon-code:before,.icon-edit-3:before,.icon-pen-tool:before,.icon-settings:before{
+.icon-facebook:before,.icon-linkedin:before,.icon-mail:before,.icon-mensaje:before,.icon-desing:before,.icon-code:before,.icon-edit-3:before,.icon-pen-tool:before,.icon-settings:before, .icon-mapa:before{
   font-family: 'icomoon';
   font-size: 2em;
   margin: 0 auto;
