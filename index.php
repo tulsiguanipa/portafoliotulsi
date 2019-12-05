@@ -138,12 +138,12 @@
 
 						<h6>-   C O N T A C T O</h6>
 						<h3>Siempre digo un gran SI a nuevas oportunidades</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic praesentium ab laboriosam quos ullam nisi tempore commodi odio corrupti.</p>
+						<p>Si deseas contactarte conmigo no dudes en enviarme un mensaje mediante el siguiente formulario, o por medio de mi mail o numero telefónico.</p>
 						<div class="mail left">
-							<a href="" > tulsiguanipa@gmail.com</a>
+							<span>tulsiguanipa@gmail.com</span>
 						</div>
 						<div class="numero left">
-							<a href="" > +54 9 1122542482 </a>
+							<span> +54 9 1122542482</span>
 						</div>
 					</div>
 					<div class="otrosp left">

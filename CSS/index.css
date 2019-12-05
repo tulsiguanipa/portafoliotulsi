@@ -109,7 +109,6 @@ footer{
   background-color: #f8f8f8;
   clear: both;
   font-family: 'Raleway', sans-serif;
-  margin-top: 2em;
   height: 100px;
   font-style: normal;
   position: absolute;
@@ -190,7 +189,8 @@ a {
 }
 
 .icon-facebook:hover{
-  font-size: 1em;
+ background-color: red;
+ color: green;
 
 }
 
@@ -490,8 +490,6 @@ text-align: center;
 
 
 
-
-
 /* fin projects*/
 
 /* comienzo contact */
@@ -661,11 +659,12 @@ text-align: center;
   top: 15px;
 }
 
-.contectorap .numero a{
+.contectorap .numero span{
   font-family: 'Raleway', sans-serif;
   text-align: center;
   margin: 10px;
   padding: 5px;
+  color:#535c5f;
 }
 
 .contectorap .mail{
@@ -680,11 +679,12 @@ text-align: center;
   top: 15px;
 }
 
-.contectorap .mail a{
+.contectorap .mail span{
   font-family: 'Raleway', sans-serif;
   text-align: center;
   margin: 10px;
   padding: 5px;
+  color:#535c5f;
 }
 
 
