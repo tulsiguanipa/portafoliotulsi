@@ -39,7 +39,7 @@ header{
 
 
 header div img{
-  width: 20%;
+  width: 10%;
   margin: auto;
   padding: 0;
   display: block;
@@ -88,7 +88,7 @@ nav ul {
 
 nav ul li a{
   font-family: 'Raleway', sans-serif;
-  font-size: 1em;
+  font-size: 0.8em;
   color: #949494;
   /*font-weight: bold;*/
   line-height: 20px; /* centrarlo en la caja contenedora*/
@@ -195,7 +195,7 @@ a {
 }
 
 .imghome{
-  padding-top: 128px;
+/*  padding-top: 128px;*/
   max-width: 100%;
   height: auto;
 /*  overflow: hidden;*/
@@ -271,7 +271,7 @@ a {
   padding: 0;
   margin: 0 auto;
   width: 40%;
-  height: 35%;
+  height: 30%;
   font-family: 'Raleway', sans-serif;
   color: #8a8a8a;
 }
@@ -279,7 +279,7 @@ a {
 
 .homeinfo{
   position: absolute;
-  bottom: 100px;
+  bottom: 60px;
   width: auto;
 
 
@@ -354,7 +354,7 @@ a {
   margin: 0; 
 } 
 .resumen{
-  box-shadow: 0 .5rem 3rem rgba(0, 0, 0, .1);
+  /*box-shadow: 0 .5rem 3rem rgba(0, 0, 0, .1);*/
   border-radius: 20px;
   padding: 10px;
   width: 150px;
@@ -440,27 +440,16 @@ text-align: center;
 }
 
 
-.projectscuadro ul{
-  font-family: 'Raleway', sans-serif;
+.projectscuadro h4{
+    font-family: 'Archivo Black', sans-serif;
+  color: #535c5f;
+  font-size: 1.5em;
   text-align: center;
   list-style: none;
   top: 10px;
   padding: 20px;
   margin: 0;
   
-}
-.projectscuadro ul li{
-  padding: 5px;
-  
-}
-.projectscuadro ul li a{
-  color: #535c5f;
-}
-
-.projectscuadro ul li a:hover{
-  text-decoration: underline;
-  /* el:hover es una pseudoclase cuando la mano este sobre el boton*/
-
 }
 
 
@@ -579,7 +568,7 @@ text-align: center;
   width: 80px;
   border: 1px solid #e6e6e6;
   border-radius: 20px;
-  box-shadow: 0 0 9px rgba(0,0,0,0.19);
+  /*box-shadow: 0 0 9px rgba(0,0,0,0.19);*/
   color: #535c5f;
   font-size: 1em;
   text-align: center;
@@ -696,5 +685,30 @@ text-align: center;
   text-align: center;
   margin: 10px;
   padding: 5px;
+}
+
+
+.botoncont:hover{
+  background-color: #e6e6e6 ;
+}
+
+/* reglas de validación de los formularios*/
+
+.formulario label.error{
+  width: auto;
+  font-size: 0.8em;
+  color: #c00;
+  margin-top: 3px;
+
+}
+
+.formulario input.error, .formulario textarea.error{
+  border: 1px solid #c00;
+  box-shadow: 0 0 2px #e52325;
+  
+}
+
+.formulario input, .formulario textarea{
+  transition: all 0.5s ease;
 }
 /* fin contact */

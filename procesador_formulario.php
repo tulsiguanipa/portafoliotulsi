@@ -9,14 +9,14 @@ $resultado =mysqli_query($conexion, "INSERT INTO idconsulta (nombre,email,coment
 
 if ($resultado!=0) {
 
-	$destino = 'fl@gmail.com';
+	$destino = 'tulsiguanipa@gmail.com';
 	$remitente = "From: $nombre <$email>";
 	$asunto = $nombre . ' envio una consulta a traves de la WEB';
 	$contenido = 'Nombre: ' . $nombre . "\r\n";
 	$contenido .= 'Email: ' . $email . "\r\n";
 	$contenido .= 'Comentario: ' . $comentario . "\r\n";
 
-	$remitente_usuario = "From: Sitio web <flx64@gmail.com>";
+	$remitente_usuario = "From: Sitio web <tulsiguanipa@gmail.com>";
 	$asunto_usuario = 'Aviso de recibo de Consulta';
 	$contenido_usuario = 'Hola ' . $nombre . ' enviaste el siguiente comentario ' . $comentario . "\r\n";
 	$contenido_usuario .= 'A la brevedad nos comunicaremos';

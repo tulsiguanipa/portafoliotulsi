@@ -21,18 +21,18 @@
 		<header>
 			<div class="holder">
 				<div class="logo">
-					<img src="logo/logo.png" width="100" alt="transportes x">
+					<img src="logo/logo.png" width="50" alt="Logo">
 				</div>
 				<nav>
 					<div class="navegacion">
 					<ul class="nav">
-						<li><a href="#home" class="smooth">HOME</a></li><li><a href="#about" class="smooth">ABOUT</a></li><li><a href="#skills" class="smooth">SKILLS</a></li><li><a href="#projects" class="smooth">PROJECTS</a></li><li><a href="#contact" class="smooth">CONTACT</a></li><li><a href="resumen/TULSI GUANIPA CV.pdf" class="smooth" target="_blank">RESUME</a></li>
+						<li><a href="#home" class="smooth scroll">HOME</a></li><li><a href="#about" class="smooth scroll">ABOUT</a></li><li><a href="#skills" class="smooth scroll">SKILLS</a></li><li><a href="#projects" class="smooth scroll">PROJECTS</a></li><li><a href="#contact" class="smooth scroll">CONTACT</a></li><li><a href="resumen/TULSI GUANIPA CV.pdf" class="smooth" target="_blank">RESUME</a></li>
 					</ul>
 					</div>
 				</nav>
 			</div>
 		</header>
-		<a name="home"></a>
+		<a id="home"></a>
 		<div data-aos="fade-up">
 			<section class="home holder">
 					<div class="imghome"> 
@@ -51,14 +51,14 @@
 		</div>
 
 		<!-- comienza about -->
-		<a name="about"></a>
+		<a id="about"></a>
 		<div  class="about holder" data-aos="fade-up">
 			<div class="contenedorabout left">	
 				<div class="info">
 					<h2>ACERCA DE MI</h2>
 					<h4>Hola soy Tulsi Guanipa</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, tempore recusandae reiciendis consequatur nemo ipsum quae consectetur ex blanditiis eveniet asperiores officiis? Pariatur sed ab alias dolores, numquam fugiat voluptates! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, tempore recusandae reiciendis consequatur nemo ipsum quae consectetur ex blanditiis eveniet asperiores officiis? Pariatur sed ab alias dolores, numquam fugiat voluptates</p>
-					<div class="resumen"><a href="resumen/TULSI GUANIPA CV.pdf">Mira mi Resumen</a></div>
+					<p>Estudiande de Diseño industrial, en la universidad de Buenos Aires. Desarrollador Web FullStack, con conocimientos solidos de desarrollo tanto FrontEnd, como en el área de BackEnd. Inspirada fuertemente por los nuevos caminos de la tecnología y sus constantes cambios. Preparada para afrontar cualquier reto, propuesta o proyecto que se me presente. Me identifico por ser una persona proactiva, eficaz, eficiente, con buenas cualidades interpersonales, responsable y alentada a cumplir con los objetivos que se me planteen.  </p>
+					<div class="resumen"><a href="resumen/TULSI GUANIPA CV.pdf" target="_blank">Mira mi Resumen</a></div>
 				</div>
 			</div>
 			<div class="contenedorabout right">
@@ -68,7 +68,7 @@
 		</div>
 
 			<!-- comienza skills -->
-		<a name="skills"></a>
+		<a id="skills"></a>
 		<div class="skills holder" data-aos="fade-up">
 			<h2>¿En que puedo contribuir a tu proyecto?</h2>
 			<div class="contenedor2">			
@@ -83,11 +83,12 @@
 		<br>
 
 			<!-- comienza proyects -->
-		<a name="projects"></a>
+		<a id="projects"></a>
 		<div data-aos="fade-up">
 			<section class="projects">
 				<div class="projectscuadro holder">
-					<ul><li style="display:inline;"><a href="">ALL/</a></li><li style="display:inline;"><a href="">WEB/</a></li><li style="display:inline;"><a href="">INDUSTRIAL</a></li></ul>
+					<h4>PROYECTOS</h4>
+		<!-- 			<ul><li style="display:inline;"><a href="">ALL/</a></li><li style="display:inline;"><a href="">WEB/</a></li><li style="display:inline;"><a href="">INDUSTRIAL</a></li></ul> -->
 				
 					<div class="contenedor1">	
 						<div class="item"> <img src="img/projects 7.jpg" alt="project" width="200" height="200"></div>
@@ -106,27 +107,27 @@
 		<br>
 		<br>
 		<br>
-		<a name="contact"></a>
+		<a id="contact"></a>
 		<div data-aos="fade-up">
 			<section class="contact holder">
 					<div class="columna right" >
 						<h2>Contacto rápido</h2>
-						<form action="procesador_formulario.php" method="POST" class="formulario">	
+						<form action="procesador_formulario.php" method="POST" class="formulario" id="formulariocontacto">	
 							<p>
-								<label for="email">* Nombre</label>
+								<label for="email">Nombre</label>
 								<input type="text" name="nombre" value="" id="email" required/>
 							</p>
 							<p>
-								<label for="tel">* E-Mail</label>
+								<label for="tel">E-Mail</label>
 								<input type="text" name="email" value="" id="tel" required/>
 							</p>
 							<p>
-								<label for="comentario">* Consulta</label>
+								<label for="comentario">Consulta</label>
 								<textarea id="comentario" name="comentarios" required></textarea>
 							</p>
 							<p class="acciones">
-								<input type="submit" value="Enviar" />
-								<input type="submit" value="Borrar" />
+								<input class="botoncont" type="submit" value="Enviar" />
+								<input class="botoncont" type="submit" value="Borrar" />
 							</p>
 							
 						</form>
@@ -168,7 +169,7 @@
 				<nav>
 					<div class="navegacionfooter">
 					<ul class="nav">
-						<li><a href="#home">HOME</a></li><li><a href="#about">ABOUT</a></li><li><a href="#skills">SKILLS</a></li><li><a href="#projects">PROJECTS</a></li><li><a href="#contact">CONTACT</a></li><li><a href="pdf">RESUME</a></li>
+						<li><a href="#home">HOME</a></li><li><a href="#about">ABOUT</a></li><li><a href="#skills">SKILLS</a></li><li><a href="#projects">PROJECTS</a></li><li><a href="#contact">CONTACT</a></li><li><a href="resumen/TULSI GUANIPA CV.pdf" class="smooth" target="_blank">RESUME</a></li>
 					</ul>
 					</div>
 				</nav>
@@ -178,14 +179,13 @@
 	</footer>
 
 	</main>
-
+	<script src="js/jquery.min.js"></script>
 	<script src="js/aos.js"></script>
-	<script>
- 		 AOS.init();
-	</script>
+	<script>AOS.init();</script>
+	<script src="js/validation/jquery.validate.js"></script>
+	<script src="js/validation/messages_es_AR.js"></script>
+	<script src="js/contacto.js"></script>	
+	<script src="js/scroll.js"></script>
 
-	<script>
-		
-	</script>
 </body>
 </html>
