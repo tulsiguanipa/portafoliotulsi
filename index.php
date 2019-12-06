@@ -77,7 +77,7 @@
 				<div class="icon1 icon-edit-3"><h3>Photoshop & Illustrator</h3></div>
 				<div class="icon1 icon-pen-tool"><h3>Modelado 3D y Rendering</h3></div>
 				<div class="icon1 icon-settings"><h3>Diseño de Productos</h3></div>
-				<div class="icon1 icon-mapa"><h3>Bootstrap, Jquery, Angular</h3></div>
+				<div class="icon1 icon-mapa"><h3>Bootstrap, Jquery, NodeJS, Angular</h3></div>
 			</div>
 		</div>
 		<br>
@@ -91,15 +91,37 @@
 		<!-- 			<ul><li style="display:inline;"><a href="">ALL/</a></li><li style="display:inline;"><a href="">WEB/</a></li><li style="display:inline;"><a href="">INDUSTRIAL</a></li></ul> -->
 				
 					<div class="contenedor1">	
-						<div class="item"> <img src="img/projects 7.jpg" alt="project" width="200" height="200"></div>
-						<div class="item"><img src="img/projects 2.jpg" alt="project" width="200" height="200"></div>
-						<div class="item"><img src="img/projects 6.jpg" alt="project" width="200" height="200"></div>
+						<div class="item"> <img src="img/projects 7.jpg" alt="project" width="200" height="200"> <button class="botonmodal" id="myBtn">Ver proyecto</button></div>
+							
+							<div id="myModal" class="modal">
+ 								<div class="modal-content">
+    							<span class="close">&times;</span>
+    							<p>Some text in the Modal..</p>
+    							<img src="img/projects 2.jpg" alt="">
+    							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum cumque, facilis nemo ipsum. Excepturi reprehenderit incidunt atque debitis minima inventore neque maxime cupiditate odit, consequatur hic nam sint architecto libero.</p>
+  								</div>
+							</div>
+
+						<div class="item"><img src="img/projects 2.jpg" alt="project" width="200" height="200"> <button class="botonmodal" id="myBtn1">Ver proyecto</button></div>
+							<div id="myModal1" class="modal1">
+ 								<div class="modal-content1">
+    							<span class="close1">&times;</span>
+    							<p>Some text in the Modal..</p>
+  								</div>
+							</div>
+						<div class="item"><img src="img/projects 6.jpg" alt="project" width="200" height="200"> <button class="botonmodal" id="myBtn2">Ver proyecto</button></div>
+							<div id="myModal2" class="modal2">
+ 								<div class="modal-content2">
+    							<span class="close2">&times;</span>
+    							<p>Some text in the Modal..</p>
+  								</div>
+							</div>
 					</div>
-					<div class="contenedor1">
+<!-- 					<div class="contenedor1">
 						<div class="item"><img src="img/projects 4.jpg" alt="project" width="200" height="200"></div>
 						<div class="item"><img src="img/projects 5.jpg" alt="project" width="200" height="200"></div>
 						<div class="item"><img src="img/projects 3.jpg" alt="project" width="200" height="200"></div>
-					</div>
+					</div> -->
 				</div>
 				
 			</section>
@@ -186,6 +208,7 @@
 	<script src="js/validation/messages_es_AR.js"></script>
 	<script src="js/contacto.js"></script>	
 	<script src="js/scroll.js"></script>
+	<script src="js/modal.js"></script>
 
 </body>
 </html>
