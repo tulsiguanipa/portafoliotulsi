@@ -96,9 +96,10 @@
 							<div id="myModal" class="modal">
  								<div class="modal-content">
     							<span class="close">&times;</span>
-    							<p>Some text in the Modal..</p>
-    							<img src="img/projects 2.jpg" alt="">
+    							<h3>ORAG: Exfoliante Efimero Biodegradable</h3>
+    							<p>La idea de emplear materiales biodegradables cada vez se escucha más, por ende por medio de experimentación con distintos materiales se llego a este producto.</p>
     							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum cumque, facilis nemo ipsum. Excepturi reprehenderit incidunt atque debitis minima inventore neque maxime cupiditate odit, consequatur hic nam sint architecto libero.</p>
+    							<img src="img/PROJECTS/PROYECTO1.jpg" alt="">
   								</div>
 							</div>
 
