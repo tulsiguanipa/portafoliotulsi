@@ -99,7 +99,7 @@
     							<h3>ORAG: Exfoliante Efimero Biodegradable</h3>
     							<p>La idea de emplear materiales biodegradables cada vez se escucha más, por ende por medio de experimentación con distintos materiales se llego a este producto.</p>
     							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum cumque, facilis nemo ipsum. Excepturi reprehenderit incidunt atque debitis minima inventore neque maxime cupiditate odit, consequatur hic nam sint architecto libero.</p>
-    							<img src="img/PROJECTS/BIOMATERIAL INFO.jpg" alt="">
+    							<div class="biomat"><img src="img/PROJECTS/BIOMATERIAL INFO.jpg" alt="infobiomateriales"></div>
   								</div>
 							</div>
 
@@ -110,7 +110,7 @@
     							<h3>ORAG: Exfoliante Efimero Biodegradable</h3>
     							<p>La idea de emplear materiales biodegradables cada vez se escucha más, por ende por medio de experimentación con distintos materiales se llego a este producto.</p>
     							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum cumque, facilis nemo ipsum. Excepturi reprehenderit incidunt atque debitis minima inventore neque maxime cupiditate odit, consequatur hic nam sint architecto libero.</p>
-    							<img src="img/PROJECTS/FOGON INFO.jpg" alt="">
+    							<div class="fogon"><img src="img/PROJECTS/FOGON INFO.jpg" alt="fogon"></div>
   								</div>
 							</div>
 						<div class="item"><img src="img/PROJECTS/CERAMICA PORTADA.jpg" alt="ceramicas" width="200" height="200"> <button class="botonmodal" id="myBtn2">Ver proyecto</button></div>
@@ -120,7 +120,7 @@
     							<h3>ORAG: Exfoliante Efimero Biodegradable</h3>
     							<p>La idea de emplear materiales biodegradables cada vez se escucha más, por ende por medio de experimentación con distintos materiales se llego a este producto.</p>
     							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum cumque, facilis nemo ipsum. Excepturi reprehenderit incidunt atque debitis minima inventore neque maxime cupiditate odit, consequatur hic nam sint architecto libero.</p>
-    							<img src="img/PROJECTS/CERAMICA INFO.jpg" alt="">
+    							<div class="ceramica"><img src="img/PROJECTS/CERAMICA INFO.jpg" alt="ceramica"></div>
   								</div>
 							</div>
 					</div>
@@ -155,6 +155,12 @@
 							</p>
 							
 						</form>
+
+						<?php 
+							if (isset($_GET['envio'])  && $_GET['envio']== 'ok'){ ?>
+								<div class="msg"> El mensaje se envío correctamente</div>
+							<br>
+						<?php } ?>
 
 
 					</div>

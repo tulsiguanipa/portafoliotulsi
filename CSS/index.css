@@ -477,7 +477,7 @@ text-align: center;
   
 }
 
-.projects .contenedor1 img{
+.projects .contenedor1 .item img{
   box-shadow: 0 0 10px rgba(0,0,0,0.14);
   margin: 10px;
   border-radius: 10px; 
@@ -643,6 +643,29 @@ text-align: center;
 .botonmodal{
   transition: all 0.5s ease;
 }
+
+
+.biomat img{
+  width: 100%;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.14);
+  border-radius: 10px; 
+}
+
+.ceramica img{
+  width: 100%;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.14);
+  border-radius: 10px;
+}
+
+.fogon img{
+  width: 100%;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.14);
+  border-radius: 10px;
+}
+
 
 /* fin projects*/
 
@@ -865,5 +888,19 @@ text-align: center;
 
 .formulario input, .formulario textarea{
   transition: all 0.5s ease;
+}
+
+.msg{
+  border: 1px solid #42b883;
+  box-shadow: 0 0 2px #01d28e;
+  text-align: center;
+  width: 350px;
+  position: relative;
+  padding: 5px;
+  margin: 0 auto;
+  font-family: 'Raleway', sans-serif;
+  color: #535c5f;
+  border-radius: 5px;
+
 }
 /* fin contact */
