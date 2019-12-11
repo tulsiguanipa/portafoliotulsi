@@ -325,6 +325,7 @@ a {
   padding: 20px;
   box-shadow: 0 .5rem 3rem rgba(0, 0, 0, .15);
   padding-bottom: 60px;
+  border-radius: 10px;
 
 }
 
@@ -479,6 +480,8 @@ text-align: center;
 .projects .contenedor1 img{
   box-shadow: 0 0 10px rgba(0,0,0,0.14);
   margin: 10px;
+  border-radius: 10px; 
+
 }
 
 /*transiciones*/
@@ -674,6 +677,7 @@ text-align: center;
   position: relative; 
   background-color: white; 
   box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+  border-radius: 10px;
 }
 
 
