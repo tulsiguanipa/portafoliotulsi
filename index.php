@@ -26,7 +26,7 @@
 				<nav>
 					<div class="navegacion">
 					<ul class="nav">
-						<li><a href="#home" class="smooth scroll">HOME</a></li><li><a href="#about" class="smooth scroll">ABOUT</a></li><li><a href="#skills" class="smooth scroll">SKILLS</a></li><li><a href="#projects" class="smooth scroll">PROJECTS</a></li><li><a href="#contact" class="smooth scroll">CONTACT</a></li><li><a href="resumen/TULSI GUANIPA CV.pdf" class="smooth" target="_blank">RESUME</a></li>
+						<li><a href="#home" class="smooth scroll">HOME</a></li><li><a href="#about" class="smooth scroll">ABOUT</a></li><li><a href="#skills" class="smooth scroll">SKILLS</a></li><li><a href="#projects" class="smooth scroll">PROJECTS</a></li><li><a href="#contact" class="smooth scroll">CONTACT</a></li><li><a href="documentos/cv/Tulsi Guanipa CV.pdf" class="smooth" target="_blank">RESUME</a></li>
 					</ul>
 					</div>
 				</nav>
@@ -58,7 +58,7 @@
 					<h2>ACERCA DE MI</h2>
 					<h4>Hola soy Tulsi Guanipa</h4>
 					<p>Estudiande de Diseño industrial, en la universidad de Buenos Aires. Desarrollador Web FullStack, con conocimientos solidos de desarrollo tanto FrontEnd, como en el área de BackEnd. Inspirada fuertemente por los nuevos caminos de la tecnología y sus constantes cambios. Preparada para afrontar cualquier reto, propuesta o proyecto que se me presente. Me identifico por ser una persona proactiva, eficaz, eficiente, con buenas cualidades interpersonales, responsable y alentada a cumplir con los objetivos que se me planteen.  </p>
-					<div class="resumen"><a href="resumen/TULSI GUANIPA CV.pdf" target="_blank">Mira mi Resumen</a></div>
+					<div class="resumen"><a href="documentos/cv/Tulsi Guanipa CV.pdf" target="_blank">Mira mi Resumen</a></div>
 				</div>
 			</div>
 			<div class="contenedorabout right">
@@ -87,11 +87,11 @@
 		<div data-aos="fade-up">
 			<section class="projects">
 				<div class="projectscuadro holder">
-					<h4>PROYECTOS</h4>
+					<h4>DISEÑO DE PRODUCTOS</h4>
 		<!-- 			<ul><li style="display:inline;"><a href="">ALL/</a></li><li style="display:inline;"><a href="">WEB/</a></li><li style="display:inline;"><a href="">INDUSTRIAL</a></li></ul> -->
 				
 					<div class="contenedor1">	
-						<div class="item"> <img src="img/projects 7.jpg" alt="project" width="200" height="200"> <button class="botonmodal" id="myBtn">Ver proyecto</button></div>
+						<div class="item"> <img src="img/PROJECTS/BIOMATERIAL PORTADA.jpg" alt="biomateriales" width="200" height="200"> <button class="botonmodal" id="myBtn">Ver proyecto</button></div>
 							
 							<div id="myModal" class="modal">
  								<div class="modal-content">
@@ -99,30 +99,31 @@
     							<h3>ORAG: Exfoliante Efimero Biodegradable</h3>
     							<p>La idea de emplear materiales biodegradables cada vez se escucha más, por ende por medio de experimentación con distintos materiales se llego a este producto.</p>
     							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum cumque, facilis nemo ipsum. Excepturi reprehenderit incidunt atque debitis minima inventore neque maxime cupiditate odit, consequatur hic nam sint architecto libero.</p>
-    							<img src="img/PROJECTS/PROYECTO1.jpg" alt="">
+    							<img src="img/PROJECTS/BIOMATERIAL INFO.jpg" alt="">
   								</div>
 							</div>
 
-						<div class="item"><img src="img/projects 2.jpg" alt="project" width="200" height="200"> <button class="botonmodal" id="myBtn1">Ver proyecto</button></div>
+						<div class="item"><img src="img/PROJECTS/FOGON PORTADA.jpg" alt="fogon" width="200" height="200"> <button class="botonmodal" id="myBtn1">Ver proyecto</button></div>
 							<div id="myModal1" class="modal1">
  								<div class="modal-content1">
     							<span class="close1">&times;</span>
-    							<p>Some text in the Modal..</p>
+    							<h3>ORAG: Exfoliante Efimero Biodegradable</h3>
+    							<p>La idea de emplear materiales biodegradables cada vez se escucha más, por ende por medio de experimentación con distintos materiales se llego a este producto.</p>
+    							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum cumque, facilis nemo ipsum. Excepturi reprehenderit incidunt atque debitis minima inventore neque maxime cupiditate odit, consequatur hic nam sint architecto libero.</p>
+    							<img src="img/PROJECTS/FOGON INFO.jpg" alt="">
   								</div>
 							</div>
-						<div class="item"><img src="img/projects 6.jpg" alt="project" width="200" height="200"> <button class="botonmodal" id="myBtn2">Ver proyecto</button></div>
+						<div class="item"><img src="img/PROJECTS/CERAMICA PORTADA.jpg" alt="ceramicas" width="200" height="200"> <button class="botonmodal" id="myBtn2">Ver proyecto</button></div>
 							<div id="myModal2" class="modal2">
  								<div class="modal-content2">
     							<span class="close2">&times;</span>
-    							<p>Some text in the Modal..</p>
+    							<h3>ORAG: Exfoliante Efimero Biodegradable</h3>
+    							<p>La idea de emplear materiales biodegradables cada vez se escucha más, por ende por medio de experimentación con distintos materiales se llego a este producto.</p>
+    							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum cumque, facilis nemo ipsum. Excepturi reprehenderit incidunt atque debitis minima inventore neque maxime cupiditate odit, consequatur hic nam sint architecto libero.</p>
+    							<img src="img/PROJECTS/CERAMICA INFO.jpg" alt="">
   								</div>
 							</div>
 					</div>
-<!-- 					<div class="contenedor1">
-						<div class="item"><img src="img/projects 4.jpg" alt="project" width="200" height="200"></div>
-						<div class="item"><img src="img/projects 5.jpg" alt="project" width="200" height="200"></div>
-						<div class="item"><img src="img/projects 3.jpg" alt="project" width="200" height="200"></div>
-					</div> -->
 				</div>
 				
 			</section>
@@ -192,7 +193,7 @@
 				<nav>
 					<div class="navegacionfooter">
 					<ul class="nav">
-						<li><a href="#home">HOME</a></li><li><a href="#about">ABOUT</a></li><li><a href="#skills">SKILLS</a></li><li><a href="#projects">PROJECTS</a></li><li><a href="#contact">CONTACT</a></li><li><a href="resumen/TULSI GUANIPA CV.pdf" class="smooth" target="_blank">RESUME</a></li>
+						<li><a href="#home">HOME</a></li><li><a href="#about">ABOUT</a></li><li><a href="#skills">SKILLS</a></li><li><a href="#projects">PROJECTS</a></li><li><a href="#contact">CONTACT</a></li><li><a href="documentos/cv/Tulsi Guanipa CV.pdf" class="smooth" target="_blank">RESUME</a></li>
 					</ul>
 					</div>
 				</nav>
