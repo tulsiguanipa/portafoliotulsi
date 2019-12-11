@@ -40,10 +40,10 @@
 						<div class="homeinfo">
 							<h3>IDEAS CREATIVAS</h3>
 							<h1>Soluciones Eficaces</h1>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex ipsa nam enim obcaecati a eligendi sunt officiis unde, quasi eos omnis ipsam excepturi exercitationem perspiciati.</p>
+							<p>Cualquier idea puede ser pasada a la realidad con las herramientas adecuadas</p>
 						</div>
 						<div class="iconosredeshome">
-						<a href="https://www.linkedin.com/in/tulsiguanipa/" class="icon-linkedin" target="_blank"></a><a href="https://www.facebook.com/Tulsi.Guanipa" class="icon-facebook"  target="_blank"></a><a href="#contact" class="icon-mensaje"></a><a href="" class="icon-mail"></a>
+						<a href="https://www.linkedin.com/in/tulsiguanipa/" class="icon-linkedin" target="_blank"></a><a href="https://www.facebook.com/Tulsi.Guanipa" class="icon-facebook"  target="_blank"></a><a href="#contact" class="icon-mensaje"></a>
 						</div>
 
 					 </div>
@@ -95,12 +95,11 @@
 							
 							<div id="myModal" class="modal">
  								<div class="modal-content">
-    							<span class="close">&times;</span>
-    							<h3>ORAG: Exfoliante Efimero Biodegradable</h3>
-    							<p>La idea de emplear materiales biodegradables cada vez se escucha más, por ende por medio de experimentación con distintos materiales se llego a este producto.</p>
-    							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum cumque, facilis nemo ipsum. Excepturi reprehenderit incidunt atque debitis minima inventore neque maxime cupiditate odit, consequatur hic nam sint architecto libero.</p>
-    							<div class="linkproyectos"><a href="documentos/proyectos/GUANIPA TULSI PROCESO ETAPA 1.pdf" target="_blank">Ver Investigación</a></div>
-    							<div class="biomat"><img src="img/PROJECTS/BIOMATERIAL INFO.jpg" alt="infobiomateriales"></div>
+	    							<span class="close">&times;</span>
+	    							<h3>ORAG: Exfoliante Efimero Biodegradable</h3>
+	    							<p>La idea de emplear materiales biodegradables cada vez se escucha más, por ende por medio de experimentación con distintos materiales se llego a este producto. Durante la experimentación se logró conocer las distintas caracteristicas de los posibles materiales a emplear, no sólo para este producto, si no también para la posibilidad de conseguir productos que actualmente se realizan con plásticos, se fabriquen con biomateriales.</p>
+	    							<div class="linkproyectos"><a href="documentos/documentacion/GUANIPA TULSI PROCESO ETAPA 1.pdf" target="_blank">Ver Investigación</a></div>
+	    							<div class="biomat"><img src="img/PROJECTS/BIOMATERIAL INFO.jpg" alt="infobiomateriales"></div>
   								</div>
 
 							</div>
@@ -109,9 +108,8 @@
 							<div id="myModal1" class="modal1">
  								<div class="modal-content1">
     							<span class="close1">&times;</span>
-    							<h3>ORAG: Exfoliante Efimero Biodegradable</h3>
-    							<p>La idea de emplear materiales biodegradables cada vez se escucha más, por ende por medio de experimentación con distintos materiales se llego a este producto.</p>
-    							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum cumque, facilis nemo ipsum. Excepturi reprehenderit incidunt atque debitis minima inventore neque maxime cupiditate odit, consequatur hic nam sint architecto libero.</p>
+    							<h3>Fogon Interactivo</h3>
+    							<p>Partiendo de la idea de hacer un fogón para un lugar público, se presentó la problemática de que la mayoría de los que hay en el mercado, no permiten la interacción de usuario - objeto. Por ende, por medio de el uso de maní con cascara el usuario tiene la posibilidad de alimentar al fuego e interactuar con él durante su estadía en el establecimiento.</p>
     							<div class="fogon"><img src="img/PROJECTS/FOGON INFO.jpg" alt="fogon"></div>
   								</div>
 							</div>
@@ -119,9 +117,8 @@
 							<div id="myModal2" class="modal2">
  								<div class="modal-content2">
     							<span class="close2">&times;</span>
-    							<h3>ORAG: Exfoliante Efimero Biodegradable</h3>
-    							<p>La idea de emplear materiales biodegradables cada vez se escucha más, por ende por medio de experimentación con distintos materiales se llego a este producto.</p>
-    							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum cumque, facilis nemo ipsum. Excepturi reprehenderit incidunt atque debitis minima inventore neque maxime cupiditate odit, consequatur hic nam sint architecto libero.</p>
+    							<h3>Organizador de Escritorio cerámico</h3>
+    							<p>El cambio de materialidad de un producto siempre altera la morfología del mismo. Y es más notable cuando este requiere un cierto proceso de transformación. Durante el cambio de materialidad de este objeto, se mantuvo en cierto sentido toda la funcionalidad del mismo, pero se agregó, o mejor dicho, se modifico la morfología siendo la original totalmente laminar, desarrollandose en un producto volumétrico.</p>
     							<div class="ceramica"><img src="img/PROJECTS/CERAMICA INFO.jpg" alt="ceramica"></div>
   								</div>
 							</div>
@@ -158,11 +155,15 @@
 							
 						</form>
 
-						<?php 
-							if (isset($_GET['envio'])  && $_GET['envio']== 'ok'){ ?>
-								<div class="msg"> El mensaje se envío correctamente</div>
+					<?php 
+						if (isset($_GET['envio'])  && $_GET['envio']== 'ok'){ ?>
+							<div class="msg"> El mensaje se envío correctamente</div>
 							<br>
-						<?php } ?>
+
+						<?php } else if (isset($_GET['envio'])  && $_GET['envio']== 'error'){ ?>
+							<div class="msgerror"> el mensaje no se envio</div>
+							<br>
+					<?php } ?>
 
 
 					</div>

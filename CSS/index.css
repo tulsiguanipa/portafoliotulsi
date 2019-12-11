@@ -188,17 +188,19 @@ a {
 
 }
 
-.icon-facebook:hover{
- background-color: red;
- color: green;
-
+.iconosredeshome a:hover:before {
+    color: #f8777d;
 }
 
+.iconosredescontacto a:hover:before {
+    color: #f8777d;
+}
+
+
+
 .imghome{
-/*  padding-top: 128px;*/
   max-width: 100%;
-  height: auto;
-/*  overflow: hidden;*/
+  height: 370px;
   position: relative;
 }
 
@@ -278,8 +280,8 @@ a {
 
 
 .homeinfo{
-  position: absolute;
-  bottom: 60px;
+  position: relative;
+  bottom: 180px;
   width: auto;
 
 
@@ -291,7 +293,7 @@ a {
   float: right;
   position: relative;
   right: 30px;
-  bottom: 60px;
+  bottom: 150px;
 
 }
 
@@ -500,17 +502,18 @@ text-align: center;
 /*modal*/
 
 .modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  padding-top: 30px; 
   left: 0;
   top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4);
+  padding-bottom: 30px;  
 }
 
 /* Modal Content */
@@ -542,17 +545,18 @@ text-align: center;
 
 
 .modal1 {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  padding-top: 30px; 
   left: 0;
   top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+  padding-bottom: 30px;
 }
 
 /* Modal Content */
@@ -583,17 +587,18 @@ text-align: center;
 
 
 .modal2 {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
+  display: none;
+  position: fixed; 
+  z-index: 1; 
+  padding-top: 30px; 
   left: 0;
   top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+  padding-bottom: 30px;
 }
 
 /* Modal Content */
@@ -682,6 +687,53 @@ text-align: center;
   color: white;
 }
 
+.modal-content h3{
+  font-family: 'Archivo Black', sans-serif;
+  color: #535c5f;
+  font-size: 2.5em;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+.modal-content p{
+  font-family: 'Raleway', sans-serif;
+  color: #535c5f;
+  font-size: 1.2em;
+  padding: 0;
+}
+
+.modal-content1 h3{
+  font-family: 'Archivo Black', sans-serif;
+  color: #535c5f;
+  font-size: 2.5em;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+.modal-content1 p{
+  font-family: 'Raleway', sans-serif;
+  color: #535c5f;
+  font-size: 1.2em;
+  padding: 0;
+}
+
+.modal-content2 h3{
+  font-family: 'Archivo Black', sans-serif;
+  color: #535c5f;
+  font-size: 2.5em;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+.modal-content2 p{
+  font-family: 'Raleway', sans-serif;
+  color: #535c5f;
+  font-size: 1.2em;
+  padding: 0;
+}
 /* fin projects*/
 
 /* comienzo contact */
@@ -692,7 +744,7 @@ text-align: center;
 
 
 .contact {
-  height: 450px;
+  height: 470px;
 
   /*border-color: #e6e6e6;*/
 
@@ -914,8 +966,24 @@ text-align: center;
   padding: 5px;
   margin: 0 auto;
   font-family: 'Raleway', sans-serif;
-  color: #535c5f;
-  border-radius: 5px;
+  color: white;
+  border-radius: 10px;
+  background-color: #4dd599;
+  opacity: 90%;
+}
 
+.msgerror{
+  border: 1px solid #c00;
+  box-shadow: 0 0 2px #e52325;
+  text-align: center;
+  width: 350px;
+  position: relative;
+  padding: 5px;
+  margin: 0 auto;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  border-radius: 10px;
+  background-color: #e52325;
+  opacity: 90%;
 }
 /* fin contact */

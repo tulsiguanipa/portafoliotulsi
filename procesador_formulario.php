@@ -24,11 +24,11 @@ if ($resultado!=0) {
 	mail($destino,$asunto,$contenido,$remitente);
 	mail($email,$asunto_usuario,$contenido_usuario,$remitente_usuario);
 
-	header('location:index.php?envio=ok#index'); 
+	header('location:index.php?envio=ok#contact'); 
 	//header > redireccionar envio=ok
 
 } else{
-	header('location:index.php?envio=error#index');
+	header('location:index.php?envio=error#contact');
 }
 
 ?>
