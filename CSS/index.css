@@ -15,7 +15,7 @@ font-family: 'Archivo Black', sans-serif;*/
 
 .holder{
   /* caja contenedora del todo el contenido se deberia colocar al principio*/
-  width: 960px;
+  max-width: 960px;
   margin: 0 auto; /* va en el medio*/
 }
 
@@ -866,7 +866,7 @@ text-align: center;
 
 .otrosp{
     border-top: 1px solid #e6e6e6;
-    width: 45%;
+    width: 100%;
     position: relative;
     top: 50px;
 }
@@ -987,3 +987,256 @@ text-align: center;
   opacity: 90%;
 }
 /* fin contact */
+
+/*RESPONSIVE*/
+
+/*inicio media queries 768px*/
+
+@media screen and (max-width: 768px){
+
+
+  .holder{
+    max-width: 768px;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  
+  .home{
+    height: 280px;
+  }
+  .home .imghome{
+    width: 100%;
+  }
+  .home .imghome img{
+    width: 100%;
+  }
+
+  .about .contenedorabout .info{
+    width: 40%;
+    clear: both;
+    float: none;
+    height: 75%;
+    top: 50px;
+  }
+
+  .about .contenedorabout .imagentul img{
+    width: 30%;
+    clear: both;
+    position: relative;
+    left: 480px;
+  }
+
+  .skills h2{
+    padding-top: 40px;
+  }
+    .contact .columna{
+    width: 100%;
+    float: none;
+    padding-bottom: 0 1em;
+    clear: both;
+  }
+  
+  .contact .contectorap{
+    width: 100%;
+    padding-bottom: 0 1em;
+    clear: both;
+    text-align: center;
+    height: 100%;
+  }
+
+    .contact .contectorap p{
+    clear: both;
+    text-align: center;
+    width: 100%;
+  }
+
+
+  .contact .columna.left{
+    /* se pone las dos clases juntas porque las dos clases estan ligadas con el elemento*/
+    border: none;
+  }
+  
+  .infoadd .mail{
+    width: 40%;
+  }
+
+  .infoadd .numero{
+    width: 40%;
+    float: right;
+  }
+  
+
+  footer{
+    position: relative;
+  }
+
+}
+
+/*Fin media queries 768px*/
+
+/*inicio media queries 480px*/
+
+
+@media screen and (max-width: 480px){
+
+  .holder{
+    max-width: 480px;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  
+  header .logo img{
+    width: 100px;
+  }
+  .home{
+    height: 170px;
+    top: 80px;
+    padding: 0;
+    margin: 0;
+
+  }
+  .home .imghome{
+    width: 100%;
+    top: 40px;
+    height: 180px;
+
+  }
+  .home .imghome img{
+    width: 100%;
+    
+  }
+
+  .home .homeinfo{
+    top: 60px;
+    position: absolute;
+  }
+
+
+  .home .homeinfo h3{
+    font-size: 1em;
+  }
+    .home .homeinfo h1{
+    font-size: 1.5em;
+  }
+
+  .home .homeinfo p{
+    font-size: 0.8em;
+  }
+
+  .home .iconosredeshome{
+    position:absolute;
+    top: 110px;
+  }
+
+  .home .imghome{
+    width: 100%;
+  }
+  .home .imghome img{
+    width: 100%;
+  }
+
+  .about{
+    height: 620px;
+    margin-bottom: 10px;
+  }
+
+  .about .contenedorabout .info{
+    width: 70%;
+    clear: both;
+    float: none;
+    height: 90%;
+    top: 60px;
+  }
+
+  .about .contenedorabout .imagentul img{
+    width: 50%;
+    clear: both;
+    position: relative;
+    left: 100px;
+    top: 420px;
+
+  }
+
+    footer{
+    position: relative;
+  }
+
+.projects{
+  height: 950px;
+}
+
+
+
+.contenedor1 {
+/*    background-color: green;*/
+    display:inline-grid;
+    align-content: center;
+}
+
+
+.item {
+/*  background-color: #ccc;*/
+  margin: 10px;
+  text-align: center;
+  line-height: 0px;
+  font-size: 30px;
+  width: 200px; /*se adapta al tamaño*/
+  transition: all 0.5s ease;
+  margin-bottom: 10px;
+  margin-left: 120px;
+  
+}
+
+.skills h2{
+  font-size: 1.2em;
+  padding-top: 75px;
+}
+
+.contenedor2 h3{
+  font-size: 0.8em;
+  padding: 2px;
+}
+
+
+
+}
+
+/*fin media queries 480px*/
+
+/*inicio media queries 360px*/
+@media screen and (max-width: 360px){
+
+  header .logo{
+    text-align: center;
+    margin-left: 0;
+  }
+  /*pisa la linea 24 que es el posicionamiento relativo*/
+  header .logo h1{
+    display: block;
+    position: static;
+  }
+
+  nav .holder{
+    padding: 0;
+  }
+
+  nav ul li{
+
+    /*quede en vertical (display block) el ancho es automatico y este de punta a punta*/
+    display: block;
+    width: auto;
+  }
+
+  nav ul li a{
+    text-align: center;
+    font-size: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+  }
+
+  footer{
+    position: relative;
+  }
+}
+
+/*fin media queries 360px*/

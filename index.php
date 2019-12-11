@@ -3,6 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<title>Tulsi Guanipa</title>
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Archivo+Black|Raleway&display=swap" rel="stylesheet">
@@ -75,7 +76,7 @@
 				<div class="icon1 icon-desing"><h3>Web Desing & Developer</h3></div>
 				<div class="icon1 icon-code"><h3>HTML, CSS, JavaScript, PHP</h3></div>
 				<div class="icon1 icon-edit-3"><h3>Photoshop & Illustrator</h3></div>
-				<div class="icon1 icon-pen-tool"><h3>Modelado 3D y Rendering</h3></div>
+				<div class="icon1 icon-pen-tool"><h3>Modelado 3D & Rendering</h3></div>
 				<div class="icon1 icon-settings"><h3>Diseño de Productos</h3></div>
 				<div class="icon1 icon-mapa"><h3>Bootstrap, Jquery, NodeJS, Angular</h3></div>
 			</div>
@@ -172,20 +173,24 @@
 						<h6>-   C O N T A C T O</h6>
 						<h3>Siempre digo un gran SI a nuevas oportunidades</h3>
 						<p>Si deseas contactarte conmigo no dudes en enviarme un mensaje mediante el siguiente formulario, o por medio de mi mail o numero telefónico.</p>
-						<div class="mail left">
-							<span>tulsiguanipa@gmail.com</span>
+						<div class="infoadd">
+							<div class="mail left">
+								<span>tulsiguanipa@gmail.com</span>
+							</div>
+							<div class="numero left">
+								<span> +54 9 1122542482</span>
+							</div>
 						</div>
-						<div class="numero left">
-							<span> +54 9 1122542482</span>
-						</div>
-					</div>
-					<div class="otrosp left">
+
+						<div class="otrosp left">
 						<h6>Otros lugares donde me puedes encontrar</h6>
 						<br>
 						<div class="iconosredescontacto">
 						<a href="https://www.linkedin.com/in/tulsiguanipa/" class="icon-linkedin" target="_blank"></a><a href="https://www.facebook.com/Tulsi.Guanipa" class="icon-facebook" target="_blank"></a>
 						</div>
 					</div>
+					</div>
+
 				
 			</section>
 		</div>
