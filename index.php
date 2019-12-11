@@ -99,8 +99,10 @@
     							<h3>ORAG: Exfoliante Efimero Biodegradable</h3>
     							<p>La idea de emplear materiales biodegradables cada vez se escucha más, por ende por medio de experimentación con distintos materiales se llego a este producto.</p>
     							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum cumque, facilis nemo ipsum. Excepturi reprehenderit incidunt atque debitis minima inventore neque maxime cupiditate odit, consequatur hic nam sint architecto libero.</p>
+    							<div class="linkproyectos"><a href="documentos/proyectos/GUANIPA TULSI PROCESO ETAPA 1.pdf" target="_blank">Ver Investigación</a></div>
     							<div class="biomat"><img src="img/PROJECTS/BIOMATERIAL INFO.jpg" alt="infobiomateriales"></div>
   								</div>
+
 							</div>
 
 						<div class="item"><img src="img/PROJECTS/FOGON PORTADA.jpg" alt="fogon" width="200" height="200"> <button class="botonmodal" id="myBtn1">Ver proyecto</button></div>
