@@ -1198,6 +1198,25 @@ text-align: center;
 }
 
 
+.contact .columna{
+  height: 85%;
+}
+
+  .footer .footernav .navegacionfooter .nav{
+ 
+    position: relative;
+  }
+
+  .footer .copyright{
+    top: 25px;
+    margin: 0 auto;
+  }
+
+  .contectorap .infoadd .mail,  .contectorap .infoadd .numero{
+    width: auto;
+    
+  }
+
 
 }
 
@@ -1210,7 +1229,8 @@ text-align: center;
     text-align: center;
     margin-left: 0;
   }
-  /*pisa la linea 24 que es el posicionamiento relativo*/
+
+  
   header .logo h1{
     display: block;
     position: static;
